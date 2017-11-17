@@ -99,6 +99,9 @@ export default{
         font-size: 12px;
         font-family: arial,Verdana, Geneva, Helvetica;
       }
+      a:hover{
+         background: #8da1b5;
+      }
       span{
         padding:0 5px;
       }

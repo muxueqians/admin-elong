@@ -24,15 +24,6 @@ export default{
   },
   data () {
     return {
-      // itemsrouter:[]
-       // names:[
-       //    {mes:'酒店预订'},
-       //    {mes:'机票查询'},
-       //    {mes:'酒店团购'},
-       //    {mes:'热门城市'},
-       //    {mes:'合作伙伴'},
-       //    {mes:'常见酒店'},
-       //  ]
     }
         
   },
