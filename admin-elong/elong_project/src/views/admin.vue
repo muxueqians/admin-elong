@@ -1,7 +1,12 @@
 <template>
 	<div id="admin">
      <Headers></Headers>
-     <section></section>
+     <section>
+         <Loopimg></Loopimg>
+         <Attractions></Attractions>
+         <CheapTicket></CheapTicket>
+         <Itinerary></Itinerary>
+     </section>
      <Footers></Footers>
      <footer>
         <div class="fr_box">
@@ -14,13 +19,21 @@
 	</div>
 </template>
 <script>
+import Itinerary from '../components/itinerary'
+import CheapTicket from '../components/cheap_ticket'
+import Attractions from '../components/attractions'
+import Loopimg from '../components/loopimg'
 import Headers from '../components/headers'
 import Footers from '../components/footers'
 export default{
   name:'admin',
   components:{
     Headers,
-    Footers
+    Footers,
+    Loopimg,
+    Attractions,
+    CheapTicket,
+    Itinerary 
   },
   data () {
     return {
@@ -58,6 +71,11 @@ export default{
 	#admin{
     width:100%;
     height:100%;
+    section{
+      width:100%;
+      height:auto;
+      border:1px solid red;
+    }
     footer{
       width:100%;
       height:auto;

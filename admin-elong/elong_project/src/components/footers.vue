@@ -77,6 +77,7 @@ export default{
      border-top: 1px solid #EEE;
      min-width:1000px;
      margin-top: 20px;
+     height:252px;
      .footers_info{
         width: 1000px;
         margin: 0 auto;

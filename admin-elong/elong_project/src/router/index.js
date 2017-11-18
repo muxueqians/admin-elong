@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
+import huangShan from '../eidts/huangShan'
 import Admin from '../views/admin'
 
 import Logins from '../login_register/logins'
@@ -22,6 +23,11 @@ const router = new Router({
       path: '/',
       name: 'admin',
       component: Admin
+    },
+    {
+      path:'/huangShan',
+      name:'huangShan',
+      component:huangShan
     },
     {
     	path:'/logins',
