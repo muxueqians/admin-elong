@@ -6,6 +6,7 @@
          <Attractions></Attractions>
          <CheapTicket></CheapTicket>
          <Itinerary></Itinerary>
+         <ServiceContract></ServiceContract>
      </section>
      <Footers></Footers>
      <footer>
@@ -19,6 +20,7 @@
 	</div>
 </template>
 <script>
+import ServiceContract from '../components/serviceContract'
 import Itinerary from '../components/itinerary'
 import CheapTicket from '../components/cheap_ticket'
 import Attractions from '../components/attractions'
@@ -33,7 +35,8 @@ export default{
     Loopimg,
     Attractions,
     CheapTicket,
-    Itinerary 
+    Itinerary, 
+    ServiceContract
   },
   data () {
     return {
@@ -107,7 +110,22 @@ export default{
          //  color:#333;
          // }
        }
+       // div{
+       //  display:none;
+       // }
+       // div :last-of-type{
+       //  display:block;
+       // }
        div:nth-of-type(1){
+        display:none;
+       }
+       div:nth-of-type(2){
+        display:none;
+       }
+       div:nth-of-type(3){
+        display:none;
+       }
+       div:nth-of-type(4){
         display:none;
        }
        // .f_stern2{
