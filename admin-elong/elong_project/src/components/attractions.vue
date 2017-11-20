@@ -4,7 +4,7 @@
        	  <div class="att_title">
 			  	<h2>
 			  		<a>目的地指数</a>
-			  		<span>覆盖全球75万家酒店，你想住的，我们都有</span>
+			  		<i>覆盖全球75万家酒店，你想住的，我们都有</i>
 			  	</h2>
        	  </div>
        	  <!-- 国内 -->
@@ -14,12 +14,13 @@
        	  			<i class="att_icon"></i>
        	  			国内
        	  		</a>
-       	  		<span class="on">登高踏青</span><span>小憩温泉</span><span>天然氧吧</span><span>草原撒欢</span><span>小镇时光</span><span>美食之城</span>
+       	  		<span class="on fsp">登高踏青</span><span class="fsp">小憩温泉</span><span class="fsp">天然氧吧</span><span class="fsp">草原撒欢</span><span class="fsp">小镇时光</span><span class="fsp">美食之城</span>
        	  		<em class="more right">
        	  			<a>更多<b>>></b></a>
        	  		</em>
        	  	</h3>
-       	  	<ul class="att_theme">
+       	  	<div class="box">
+       	  		<ul class="att_theme">
        	  		<li>
        	  			<a class="huangShan" @click="tohuangShan">
        	  				<div class="huangShan_img">
@@ -65,6 +66,247 @@
        	  			</div>
        	  		</li>
        	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="huangShan" >
+       	  				<div class="huangShan_img">
+       	  					<img src="../assets/xs1.jpg">
+       	  				</div>
+       	  				<div class="city_name">江苏天目湖</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>古树错落 帝王温泉</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="eMeiShan">
+       	  				<div class="eMeiShan_img">
+       	  					<img src="../assets/xs2.jpg">
+       	  				</div>
+       	  				<div class="city_name">威海天沐威海温泉</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>森林温泉 草本养生</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="wuTaiShan" >
+       	  				<div class="wuTaiShan_img">
+       	  					<img src="../assets/xs3.jpg">
+       	  				</div>
+       	  				<div class="city_name">广东中山温泉</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>毗邻港澳 商务养生</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luShan">
+       	  				<div class="luShan_img">
+       	  					<img src="../assets/xs4.jpg">
+       	  				</div>
+       	  				<div class="city_name">辽宁大连安波温泉</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>延年益寿 名誉中外</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="huangShan">
+       	  				<div class="huangShan_img">
+       	  					<img src="../assets/ts1.jpg">
+       	  				</div>
+       	  				<div class="city_name">拉萨</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>高原古城 圣山天湖 沁人心脾</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="eMeiShan">
+       	  				<div class="eMeiShan_img">
+       	  					<img src="../assets/ts2.jpg">
+       	  				</div>
+       	  				<div class="city_name">大理</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>文献名邦 彩云之南 空谷幽兰</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="wuTaiShan" >
+       	  				<div class="wuTaiShan_img">
+       	  					<img src="../assets/ts3.jpg">
+       	  				</div>
+       	  				<div class="city_name">舟山</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>东海翡翠 舟山群鸟 气候宜人</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luShan">
+       	  				<div class="luShan_img">
+       	  					<img src="../assets/ts4.jpg">
+       	  				</div>
+       	  				<div class="city_name">厦门</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>天风海涛 鼓浪岛屿 鸟语芬芳</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="huangShan" >
+       	  				<div class="huangShan_img">
+       	  					<img src="../assets/cs1.jpg">
+       	  				</div>
+       	  				<div class="city_name">锡林郭勒</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>草原 牧民 小马驹</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="eMeiShan">
+       	  				<div class="eMeiShan_img">
+       	  					<img src="../assets/cs2.jpg">
+       	  				</div>
+       	  				<div class="city_name">坝上</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>帝都最近的草原</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="wuTaiShan" >
+       	  				<div class="wuTaiShan_img">
+       	  					<img src="../assets/cs3.jpg">
+       	  				</div>
+       	  				<div class="city_name">若尔盖</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>高原上的绿洲</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luShan">
+       	  				<div class="luShan_img">
+       	  					<img src="../assets/cs4.jpg">
+       	  				</div>
+       	  				<div class="city_name">祁连山</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>风景如画 醉美祁连山</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="huangShan" @click="tohuangShan">
+       	  				<div class="huangShan_img">
+       	  					<img src="../assets/xx1.jpg">
+       	  				</div>
+       	  				<div class="city_name">西塘</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>烟雨长廊 景色好似宣纸画</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="eMeiShan">
+       	  				<div class="eMeiShan_img">
+       	  					<img src="../assets/xx2.jpg">
+       	  				</div>
+       	  				<div class="city_name">和顺</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>古风犹存 如诗如画</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="wuTaiShan" >
+       	  				<div class="wuTaiShan_img">
+       	  					<img src="../assets/xx3.jpg">
+       	  				</div>
+       	  				<div class="city_name">乌镇</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>推窗见水 小桥人家</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luShan">
+       	  				<div class="luShan_img">
+       	  					<img src="../assets/xx4.jpg">
+       	  				</div>
+       	  				<div class="city_name">平遥</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>晋商遗风 古城探幽</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="huangShan">
+       	  				<div class="huangShan_img">
+       	  					<img src="../assets/ms.jpg">
+       	  				</div>
+       	  				<div class="city_name">香港</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>只有想不到，没有找不到</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="eMeiShan">
+       	  				<div class="eMeiShan_img">
+       	  					<img src="../assets/ms2.jpg">
+       	  				</div>
+       	  				<div class="city_name">成都</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>不只有火锅, 吃是头等事</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="wuTaiShan" >
+       	  				<div class="wuTaiShan_img">
+       	  					<img src="../assets/ms3.jpg">
+       	  				</div>
+       	  				<div class="city_name">扬州</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>吴侬软语 淮味养人</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luShan">
+       	  				<div class="luShan_img">
+       	  					<img src="../assets/ms4.jpg">
+       	  				</div>
+       	  				<div class="city_name">长沙</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>美食怕不辣,湘味最十足</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
        	  </div>
        	  <div class="empty"></div>
        	  <!-- 国外 -->
@@ -74,12 +316,13 @@
        	  			<i class="att_icon1"></i>
        	  			海外
        	  		</a>
-       	  		<span class="on">文艺清新</span><span>面朝大海</span><span>别样建筑</span><span>浪漫主义</span><span>魅力都市</span>
+       	  		<span class="on fsp">文艺清新</span><span class="fsp">面朝大海</span><span class="fsp">别样建筑</span><span class="fsp">浪漫主义</span><span class="fsp">魅力都市</span>
        	  		<em class="more right">
        	  			<a>更多<b>>></b></a>
        	  		</em>
        	  	</h3>
-       	  	<ul class="att_theme">
+       	  	<div class="box">
+       	  		<ul class="att_theme">
        	  		<li>
        	  			<a class="lunDun" >
        	  				<div class="lunDun_img">
@@ -125,6 +368,199 @@
        	  			</div>
        	  		</li>
        	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="lunDun" >
+       	  				<div class="lunDun_img">
+       	  					<img src="../assets/hw1.jpg">
+       	  				</div>
+       	  				<div class="city_name">普吉岛</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>海盗胜地，天人合一</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="qingMai">
+       	  				<div class="qingMai_img">
+       	  					<img src="../assets/hw2.jpg">
+       	  				</div>
+       	  				<div class="city_name">马尔代夫</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>一岛一世界</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="jiZhouDao" >
+       	  				<div class="jiZhouDao_img">
+       	  					<img src="../assets/hw3.jpg">
+       	  				</div>
+       	  				<div class="city_name">沙巴</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>纯净至极的原生态梦幻岛屿</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luoMa">
+       	  				<div class="luoMa_img">
+       	  					<img src="../assets/hw4.jpg">
+       	  				</div>
+       	  				<div class="city_name">夏威夷</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>凝聚着东方妩媚与西方性感</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="lunDun" >
+       	  				<div class="lunDun_img">
+       	  					<img src="../assets/tw1.jpg">
+       	  				</div>
+       	  				<div class="city_name">巴塞罗那</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>天使之城,艺术之都</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="qingMai">
+       	  				<div class="qingMai_img">
+       	  					<img src="../assets/tw2.jpg">
+       	  				</div>
+       	  				<div class="city_name">米兰</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>在时尚与古典间穿梭</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="jiZhouDao" >
+       	  				<div class="jiZhouDao_img">
+       	  					<img src="../assets/tw3.jpg">
+       	  				</div>
+       	  				<div class="city_name">莫斯科</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>畅饮伏特加的英雄之城</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luoMa">
+       	  				<div class="luoMa_img">
+       	  					<img src="../assets/tw4.jpg">
+       	  				</div>
+       	  				<div class="city_name">伊斯坦布尔</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>古老与现代辉映，东方与西方交融</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  		<ul class="att_theme">
+       	  		<li>
+       	  			<a class="lunDun" >
+       	  				<div class="lunDun_img">
+       	  					<img src="../assets/fa1.jpg">
+       	  				</div>
+       	  				<div class="city_name">马尔代夫</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>一岛一世界</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="qingMai">
+       	  				<div class="qingMai_img">
+       	  					<img src="../assets/fa2.jpg">
+       	  				</div>
+       	  				<div class="city_name">圣托里尼</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>蓝白色的人间伊甸园</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="jiZhouDao" >
+       	  				<div class="jiZhouDao_img">
+       	  					<img src="../assets/fa3.jpg">
+       	  				</div>
+       	  				<div class="city_name">巴黎</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>浪漫如斯，热情如是</p>
+       	  			</div>
+       	  		</li>
+       	  		<li>
+       	  			<a class="luoMa">
+       	  				<div class="luoMa_img">
+       	  					<img src="../assets/fa4.jpg">
+       	  				</div>
+       	  				<div class="city_name">普罗旺斯</div>
+       	  			</a>
+       	  			<div class="scale_tour">
+       	  				<p>薰衣草之乡</p>
+       	  			</div>
+       	  		</li>
+       	  	</ul>
+       	  	</div>
+       	  	<div class="box">
+       	  	    <ul class="att_theme">
+	       	  		<li>
+	       	  			<a class="lunDun" >
+	       	  				<div class="lunDun_img">
+	       	  					<img src="../assets/fm1.jpg">
+	       	  				</div>
+	       	  				<div class="city_name">新加坡</div>
+	       	  			</a>
+	       	  			<div class="scale_tour">
+	       	  				<p>乐享狮城，多彩四季</p>
+	       	  			</div>
+	       	  		</li>
+	       	  		<li>
+	       	  			<a class="qingMai">
+	       	  				<div class="qingMai_img">
+	       	  					<img src="../assets/fm2.jpg">
+	       	  				</div>
+	       	  				<div class="city_name">阿姆斯特丹</div>
+	       	  			</a>
+	       	  			<div class="scale_tour">
+	       	  				<p>郁金香绽放的水都</p>
+	       	  			</div>
+	       	  		</li>
+	       	  		<li>
+	       	  			<a class="jiZhouDao" >
+	       	  				<div class="jiZhouDao_img">
+	       	  					<img src="../assets/fm3.jpg">
+	       	  				</div>
+	       	  				<div class="city_name">洛杉矶</div>
+	       	  			</a>
+	       	  			<div class="scale_tour">
+	       	  				<p>好莱坞的风情</p>
+	       	  			</div>
+	       	  		</li>
+	       	  		<li>
+	       	  			<a class="luoMa">
+	       	  				<div class="luoMa_img">
+	       	  					<img src="../assets/fm4.jpg">
+	       	  				</div>
+	       	  				<div class="city_name">吉隆坡</div>
+	       	  			</a>
+	       	  			<div class="scale_tour">
+	       	  				<p>双子塔上，气度非凡</p>
+	       	  			</div>
+	       	  		</li>
+       	  	    </ul>
+       	  	</div>
        	  </div>
        </div>   
 	</div>
@@ -156,7 +592,35 @@ export default{
 
   },
   mounted(){
-   
+    var spn=document.getElementsByClassName('fsp');
+     console.log(spn);
+    var bs=document.getElementsByClassName('box');
+    console.log(bs);
+    var index=0;
+    for(let i=0; i<spn.length; i++){
+    	spn[i].index=i;
+    	spn[i].onclick=function(){
+    		if(i>5){
+	    		for(let j=0;j<bs.length;j++){
+	    			if(j>5){
+	    				spn[j].className="fsp";
+	    				bs[j].style.display='none';
+	    			}
+	    		}
+	    		spn[this.index].className="on fsp";
+	    		bs[this.index].style.display='block';
+    		}else{
+    			for(let j=0;j<bs.length;j++){
+	    			if(j<=5){
+	    				spn[j].className="fsp";
+	    				bs[j].style.display='none';
+	    			}
+	    		}
+	    		spn[this.index].className="on fsp";
+	    		bs[this.index].style.display='block';
+    		}
+    	}
+    }
   }
 }
 
@@ -189,7 +653,7 @@ export default{
 						color: #f55;
 						padding-right: 10px;text-decoration: none;
 					}
-					span{
+					i{
 						font: 14px/30px Microsoft yahei;
                         color: #999;
 					}
@@ -261,7 +725,10 @@ export default{
 						}
 					}
         		}
-        		.att_theme{
+        		.box,.box1{
+        			width:100%;
+        			height:202px;
+        			.att_theme{
                     overflow:hidden;
                     width:100%;
                     height:202px;
@@ -316,7 +783,18 @@ export default{
 								}
 							}
                     } 
+        		   }
         		}
+        		.box,.box1{
+        			display:none;
+        		}
+        		.box:nth-of-type(1){
+        			display:block;
+        		}
+        		.box1:nth-of-type(7){
+        			display:block;
+        		}
+
         	}
         	.empty{
         		width:100%;
