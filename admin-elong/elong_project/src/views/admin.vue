@@ -77,7 +77,7 @@ export default{
     section{
       width:100%;
       height:auto;
-      border:1px solid red;
+      // border:1px solid red;
     }
     footer{
       width:100%;
@@ -110,12 +110,6 @@ export default{
          //  color:#333;
          // }
        }
-       // div{
-       //  display:none;
-       // }
-       // div :last-of-type{
-       //  display:block;
-       // }
        div:nth-of-type(1){
         display:none;
        }
