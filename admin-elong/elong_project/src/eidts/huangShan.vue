@@ -1,13 +1,19 @@
 <template>
 	<div id="huangShan">
-        黄山不慌
+        <Headers></Headers> 
+        <section>
+        	<Hscontent></Hscontent>
+        </section>
 	</div>
 </template>
 <script>
+import Headers from '../components/headers'
+import Hscontent from '../components/hs_content'
 export default{
   name:'huangShan',
   components:{
-   
+    Headers,
+    Hscontent
   },
   data () {
     return {
@@ -37,7 +43,13 @@ export default{
 </script>
 <style lang="scss" scope>
 	#huangShan{
-		width:100px;height:100px;
-		background:green;
+		width:100%;
+		height:100%;
+		section{
+			width:100%;
+			height:100%;
+			
+		}
+
 	}
 </style>

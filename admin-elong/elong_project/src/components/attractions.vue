@@ -214,7 +214,7 @@
        	  	<div class="box">
        	  		<ul class="att_theme">
        	  		<li>
-       	  			<a class="huangShan" @click="tohuangShan">
+       	  			<a class="huangShan" >
        	  				<div class="huangShan_img">
        	  					<img src="../assets/xx1.jpg">
        	  				</div>
@@ -579,7 +579,7 @@ export default{
   methods:{
    tohuangShan(){
    	this.$router.push({
-         name:huangShan
+         name:'huangShan',
    	})
    }
    // toRegister(){

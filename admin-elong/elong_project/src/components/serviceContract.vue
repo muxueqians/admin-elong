@@ -84,6 +84,20 @@ export default{
               width: 60px;
               margin: 0 10px 0 0;
             }
+            i:hover{
+              animation: myi 1s;
+              @keyframes myi
+              {
+              0%   {transform:rotate(10deg);}
+              25%  {transform:rotate(-10deg);}
+              30%  {transform:rotate(10deg);}
+              35%  {transform:rotate(-10deg);}
+              45%  {transform:rotate(10deg);}
+              50%  {transform:rotate(-10deg);}
+              55%  {transform:rotate(10deg);}
+              }
+            }
+
             .i1{
               background: url(../assets/icon_index.png) no-repeat;
               background-position: -91px -4px;
@@ -123,6 +137,10 @@ export default{
           -webkit-transition: margin .5s;
           background:url(../assets/icon_index.png) no-repeat;
           background-position: -384px -20px;
+        }
+        .left:hover{
+            margin-left: 0;
+            -webkit-transition: margin .5s;
         }
         .middle{
             width:680px;

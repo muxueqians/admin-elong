@@ -203,7 +203,8 @@ export default{
         }
     }
 
-
+    nts[0].style.display="block";
+    nts[2].style.display="block";
     for(let k=0;k<nbs.length;k++){
     	nbs[k].index=k;
     	nbs[k].onclick=function(){
@@ -242,7 +243,7 @@ export default{
 			width:100%;
 			height:380px;
 			position:relative;
-			overflow:hidde;
+			overflow:hidden;
 			.swiper-wrapper{
 				width:100%;
 				height:380px;
@@ -411,14 +412,15 @@ export default{
 	        						text-align:right;
                 				}
                 				.third{
-                					width:158px;
+                					width:146px;
             						height:30px;
+            						padding-left:10px;
             						border:1px solid #CCC;
                 				}
                 				.icmy{
-                					margin:7px 10px;
+                					margin:7px 8px;
 									height: 12px;
-									width: 20px;
+									width: 25px;
 									display: inline-block;
 									background: url(../assets/icon.png) no-repeat;
 									// background-position: -299px -762px;
@@ -504,14 +506,15 @@ export default{
                 						text-align:right;
                 					}
                 					.third{
-                						width:158px;
+                						width:146px;
                 						height:30px;
+                						padding-left:10px;
                 						border:1px solid #CCC;
                 					}
                 					.icmy{
-                						margin:7px 10px;
+                						margin:7px 8px;
 										height: 12px;
-										width: 20px;
+										width: 25px;
 										display: inline-block;
 										background: url(../assets/icon.png) no-repeat;
 										// background-position: -299px -762px;
@@ -615,9 +618,9 @@ export default{
                 		.snbox_b{
                 			display:none;
                 		}
-                		.snbox_b:nth-of-type(1){
-                			display:block;
-                		}
+                		// .snbox_b:nth-of-type(1){
+                		// 	display:block;
+                		// }
                 	}
                 	.dsbox{
                 		width:100%!important;
