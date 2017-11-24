@@ -175,12 +175,372 @@
                                       <p class="newmessage">最新预订：4小时前</p>
                                   </div>
                                   <div class="cprice">
-                                      <p>
+                                      <p class="pk5">
                                           <a>
-                                              <span>¥</span>
-                                              <span>168px</span>
-                                              <span>起</span>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">168</span>
+                                              <span class="s3">起</span>
                                           </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love" style="display:none">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>1134人</b>收藏
+                                              <span>+1</span>
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw1.jpg"></a>
+                              </div>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="滨江时尚主题酒店(屯溪老街店)">
+                                              <span class="sp1">1</span>
+                                              滨江时尚酒店(屯溪老街店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[黄山市区(屯溪)]</a>
+                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>99%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1713</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：4小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">168</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love" style="display:none">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>1134人</b>收藏
+                                              <span>+1</span>
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw1.jpg"></a>
+                              </div>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="滨江时尚主题酒店(屯溪老街店)">
+                                              <span class="sp1">1</span>
+                                              滨江时尚酒店(屯溪老街店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[黄山市区(屯溪)]</a>
+                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>99%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1713</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：4小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">168</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love" style="display:none">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>1134人</b>收藏
+                                              <span>+1</span>
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw1.jpg"></a>
+                              </div>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="滨江时尚主题酒店(屯溪老街店)">
+                                              <span class="sp1">1</span>
+                                              滨江时尚酒店(屯溪老街店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[黄山市区(屯溪)]</a>
+                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>99%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1713</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：4小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">168</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love" style="display:none">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>1134人</b>收藏
+                                              <span>+1</span>
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw1.jpg"></a>
+                              </div>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="滨江时尚主题酒店(屯溪老街店)">
+                                              <span class="sp1">1</span>
+                                              滨江时尚酒店(屯溪老街店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[黄山市区(屯溪)]</a>
+                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>99%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1713</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：4小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">168</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love" style="display:none">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>1134人</b>收藏
+                                              <span>+1</span>
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw1.jpg"></a>
+                              </div>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="滨江时尚主题酒店(屯溪老街店)">
+                                              <span class="sp1">1</span>
+                                              滨江时尚酒店(屯溪老街店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[黄山市区(屯溪)]</a>
+                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>99%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1713</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：4小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">168</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
                                       </p>
                                       <div class="detail">
                                           <a>查看详情</a>
@@ -230,7 +590,6 @@ export default{
    
   }
 }
-
 </script>
 <style lang="scss" scope>
 #hs_content{
@@ -760,6 +1119,8 @@ export default{
                         padding:15px 0;
                         border-bottom:1px solid #DDD;
                         background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+                        // display:flex;
+                        // flex-flow:row nowrap;
                         .content{
                               width:100%;
                               height:130px;
@@ -775,6 +1136,8 @@ export default{
                                     width:635px;
                                     height:130px;
                                     border:1px solid blue;
+                                    display:flex;
+                                    flex-flow:row nowrap;
                                     .cfont{
                                            width:345px;
                                            height:109px;
@@ -872,13 +1235,181 @@ export default{
                                            .pk4{
                                                 margin-top: 10px;
                                                 white-space: nowrap;
-                                                text-overflow: ellipsis;
+                                                text-overflow:ellipsis;
                                                 overflow: hidden;
                                                 color: #999;
+                                                font-size: 12px;
+                                                font-family: arial,Verdana, Geneva, Helvetica;
+                                                .map{
+                                                    border-radius: 10px 0 0 10px;
+                                                    height: 18px;
+                                                    float: left;
+                                                    line-height: 18px;
+                                                    padding: 0 8px;
+                                                    border: 1px solid #CDE;
+                                                    cursor: pointer;
+                                                    color: #555;
+                                                    white-space: nowrap;
+                                                    .cmap{
+                                                        margin-right: 4px;
+                                                        vertical-align: -2px;
+                                                        width: 9px;
+                                                        height: 12px;
+                                                        display: inline-block;
+                                                        background: url(../assets/iconf.png) no-repeat;
+                                                        background-position: -249px -6px;
+                                                        overflow: hidden;
+                                                    }
+                                                }
+                                                .street{
+                                                    border-radius: 0 10px 10px 0;
+                                                    margin: 0 6px 0 -1px;
+                                                    height: 18px;
+                                                    float: left;
+                                                    line-height: 18px;
+                                                    padding: 0 8px;
+                                                    border: 1px solid #CDE;
+                                                    white-space: nowrap;
+                                                    background: 0;
+                                                    color: #ccc;
+                                                    border-color: #ccc;
+                                                    cursor: default;
+                                                    .cstreet{
+                                                        margin-right: 4px;
+                                                        vertical-align: -2px;
+                                                        width: 10px;
+                                                        height: 12px;
+                                                        display: inline-block;
+                                                        background: url(../assets/iconf.png) no-repeat;
+                                                         background-position: -743px -6px;
+                                                    }
+                                                }
                                            }
                                     }
+                                    .evaluate{
+                                        width: 130px;
+                                        // float: right;
+                                        text-align: center;
+                                        border-left: 1px solid #EEE;
+                                        border-right: 1px solid #EEE;
+                                        height: 100px;
+                                        font-size: 12px;
+                                        font-family: arial,Verdana, Geneva, Helvetica;
+                                        line-height: 20px;
+                                        -webkit-text-size-adjust: none;
+                                        a{
+                                          display: block;
+                                          height:50px;
+                                          margin: 0 10px;
+                                          padding: 0 2px;
+                                          // color: #37e;
+                                          text-decoration: none;
+                                          cursor: pointer;
+                                          span{
+                                            width: 100px;
+                                            height: 29px;
+                                            display: block;
+                                            background: url(../assets/fixed_right.png) no-repeat -257px -48px;
+                                            // color: #37e;
+                                            cursor: pointer;
+                                            i{
+                                                vertical-align: top;
+                                                font-size: 18px !important;
+                                                font-style: normal;
+                                                color: #37e;
+                                                cursor: pointer;
+                                            }
+                                            b{
+                                               color: #37e; 
+                                            }
+                                          }
+                                        }
+                                        .newmessage{
+                                            color: #21a651;
+                                            margin-top: 30px;
+                                        }
+                                    }
+                                    .cprice{
+                                        width: 155px;
+                                        height: 130px;
+                                        float: right;
+                                        text-align: center;
+                                        position: relative;
+                                        .pk5{
+                                            width:155px;
+                                            height:36px;
+                                            a{
+                                                color: #37e;
+                                                text-decoration: none;
+                                                cursor: pointer;
+                                                .s1{
+                                                    vertical-align: 11px;
+                                                    font-size: 14px;
+                                                    color: #666 !important;
+                                                    cursor: pointer;
+                                                }
+                                                .s2{
+                                                    font: 30px Arial;
+                                                    color: #F55;
+                                                    cursor: pointer;text-align: center;
+                                                }
+                                                .s3{
+                                                    vertical-align: 2px;
+                                                    color: #F55 !important;
+                                                    cursor: pointer;
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                        .pk6{
+                                            margin-top: 5px;
+                                            width:155px;
+                                            height:20px;
+                                            span{
+                                                width:62px;
+                                                height:14px;
+                                                font-size: 12px;
+                                                font-family: arial,Verdana, Geneva, Helvetica;
+                                                color: #555;
+                                                line-height: 20px;
+                                                -webkit-text-size-adjust: none;
+                                                .fmoery{
+                                                    width: 13px;
+                                                    height: 14px;
+                                                    display: inline-block;
+                                                    background: url(../assets/iconf.png) no-repeat;
+                                                    background-position: 0 -42px;
+                                                    vertical-align: middle;
+                                                    overflow: hidden;
+                                                }
+                                            }
+                                        }
+                                        .detail{
+                                            width:155px;
+                                            height:30px;
+                                            font-size: 12px;
+                                            font-family: arial,Verdana, Geneva, Helvetica;
+                                            line-height: 20px;
+                                            -webkit-text-size-adjust: none;
+                                            a{
+                                                display: block;
+                                                border: 1px solid #e3f0ff;
+                                                background-color: #FFF;
+                                                width: 120px;
+                                                height: 28px;
+                                                border-radius: 2px;
+                                                margin: 10px auto 0;
+                                                line-height: 28px;
+                                                font-family: "Microsoft Yahei";
+                                                font-size: 14px !important;
+                                                color: #37e;
+                                                text-decoration: none;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
                               }
-                        }
+                        }   
                     }
                 }
             }

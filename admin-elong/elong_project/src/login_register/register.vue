@@ -25,7 +25,7 @@
        	  				<ul class="phonelist" style="display:none"></ul>
        	  			</span>
        	  			<span>
-       	  				<input class="phone_input" type="text" name="mobile" value="" maxlength="11"/>
+       	  				<input class="want phone_input" type="text" name="mobile" value="" maxlength="11"/>
        	  			</span>
        	  		</span>
        	  	</li>
@@ -53,7 +53,7 @@
        	  			<span class="cf00">*</span>邮箱:
        	  		</p>
        	  		<span>
-       	  			<input class="email" name="email">
+       	  			<input class="want email" name="email">
        	  		</span>
        	  	</li>
        	  	<li class="pass_level">
@@ -61,7 +61,7 @@
        	  			<span class="cf00">*</span>密码:
        	  		</p>
        	  		<span>
-       	  			<input class="password" type="password" name="password">
+       	  			<input class="want password" type="password" name="password">
        	  		</span>
        	  	</li>
        	  	<li>
@@ -69,7 +69,7 @@
        	  			<span class="cf00">*</span>再次输入密码:
        	  		</p>
        	  		<span>
-       	  			<input class="rePassword" name="rePassword" type="password">
+       	  			<input class="want rePassword" name="rePassword" type="password">
        	  		</span>
        	  	</li>
        	  	<li>
@@ -116,7 +116,8 @@ export default{
 
   },
   mounted(){
-    
+    var inps=document.getElementsByClassName('want');
+    console.log(inps);
   }
 }
 
