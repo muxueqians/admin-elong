@@ -21,13 +21,20 @@
        	  		</p>
        	  		<span>
        	  			<span class="phonenum">
-       	  				<span class="phonetype">中国大陆+86</span>
-       	  				<ul class="phonelist" style="display:none"></ul>
+       	  				<!-- <span class="phonetype">中国大陆+86</span>
+       	  				<ul class="phonelist" style="display:none"></ul> -->
+       	  				<select name="" class="phonetype">
+		                	<option value="">中国大陆+86</option>
+		                	<option value="">中国香港+852</option>
+		                	<option value="">中国澳门+853</option>
+		                	<option value="">中国台湾+886</option>
+                       </select>
        	  			</span>
        	  			<span>
-       	  				<input class="want phone_input" type="text" name="mobile" value="" maxlength="11"/>
+       	  				<input class="want phone_input" type="text"  @blur="bphone" @focus="fphone" name="mobile" value="" maxlength="11"/>
        	  			</span>
        	  		</span>
+       	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
        	  	<li>
        	  		<p>
@@ -36,7 +43,7 @@
        	  		<span>
        	  			<input class="yzm" type="text" name="validateCode">
        	  		</span>
-       	  		<div class="yzmess"></div>
+       	  		<div class="yzmess">7862</div>
        	  		<a class="changeCode">看不清,换一张</a>
        	  	</li>
        	  	<li>
@@ -44,17 +51,19 @@
        	  			<span class="cf00">*</span>短信验证码:
        	  		</p>
        	  		<span>
-       	  			<input class="smsinput" maxlength="6" type="text" name="smsCodeInput">
+       	  			<input class="want smsinput" maxlength="6" type="text" name="smsCodeInput">
        	  			<span class="getSmsCode">获取短信验证码</span>
        	  		</span>
+       	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
        	  	<li>
        	  		<p>
        	  			<span class="cf00">*</span>邮箱:
        	  		</p>
        	  		<span>
-       	  			<input class="want email" name="email">
+       	  			<input class="want email" @blur="bemail" @focus="femail" @name="email">
        	  		</span>
+       	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
        	  	<li class="pass_level">
        	  		<p>
@@ -63,6 +72,7 @@
        	  		<span>
        	  			<input class="want password" type="password" name="password">
        	  		</span>
+       	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
        	  	<li>
        	  		<p>
@@ -71,6 +81,7 @@
        	  		<span>
        	  			<input class="want rePassword" name="rePassword" type="password">
        	  		</span>
+       	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
        	  	<li>
        	  		<p></p>
@@ -111,13 +122,88 @@ export default{
           name:'logins',
         })
     },
+    fphone(){
+    	var inps=document.getElementsByClassName('want');
+        var divs=document.getElementsByClassName('dis');
+        var ic=document.querySelectorAll('.dis i');
+        var ics=document.querySelectorAll('.dis span');
+        ic[0].className="icf";
+    	ics[0].innerHTML="请输入常用的手机号，方便联系";
+    	divs[0].style.display="block";
+    },    
+    bphone(){
+    	var inps=document.getElementsByClassName('want');
+        var divs=document.getElementsByClassName('dis');
+        var ic=document.querySelectorAll('.dis i');
+        var ics=document.querySelectorAll('.dis span');
+    	var re=/^1[34578]{1}[0-9]{9}$/g;
+    	var isok=re.test(inps[0].value);
+    	if(!isok){
+    		ic[0].className="ice";
+    		ics[0].innerHTML="请输入正确的手机号";
+    		divs[0].style.display="block";
+    	}else{
+    		divs[0].style.display="none";
+    	}
+    },
+    femail(){
+    	var inps=document.getElementsByClassName('want');
+        var divs=document.getElementsByClassName('dis');
+        var ic=document.querySelectorAll('.dis i');
+        var ics=document.querySelectorAll('.dis span');
+        ic[2].className="icf";
+    	ics[2].innerHTML="请输入常用的邮箱地址";
+    	divs[2].style.display="block";
+    },
+    bemail(){
+    	var inps=document.getElementsByClassName('want');
+        var divs=document.getElementsByClassName('dis');
+        var ic=document.querySelectorAll('.dis i');
+        var ics=document.querySelectorAll('.dis span');
+        var re = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+        var isok=re.test(inps[2].value);
+        if(!isok){
+        	ic[2].className="ice";
+    		ics[2].innerHTML="请输入正确的邮箱地址";
+    		divs[2].style.display="block";
+        }else{
+        	divs[2].style.display="none";
+        }
+    }
   },
   watch:{
+  	// background:url(../assets/myelong_login.png);background-position: -315px -248px;';
 
   },
   mounted(){
-    var inps=document.getElementsByClassName('want');
-    console.log(inps);
+  //   var inps=document.getElementsByClassName('want');
+  //   // console.log(inps);
+  //   var divs=document.getElementsByClassName('dis');
+  //   var ic=document.querySelectorAll('.dis i');
+  //   var ics=document.querySelectorAll('.dis span');
+  //   // console.log(divs);// inps[1].value
+  //   console.log(ics);
+  //   function  phone(){
+  //   	var re=/^1[34578]{1}[0-9]{9}$/g;
+  //   	var isok=re.test(inps[0].value);
+  //   	if(inps[0].value==""){
+  //   		ic[0].className="ice";
+  //   		ics[0].innerHTML="请输入正确的手机号";
+  //   		divs[0].style.display="block";
+  //   	}else if(!isok){
+  //            ic[0].className="ice";
+  //            ics[0].innerHTML="请输入正确的手机号";
+  //            divs[0].style.display="block";
+  //   	}else{
+  //   		divs[0].style.display="none";
+  //   	}
+
+
+    	
+
+    	
+  //   }
+  //   phone();
   }
 }
 
@@ -185,7 +271,48 @@ export default{
 				padding-top:20px;
 				li{
                    margin-bottom: 20px;
+                   display:flex;
+                   flex-flow:row nowrap;
                    overflow: hidden;
+                   .dis{
+                   	margin-left:10px;
+                    font-size: 12px;
+                    color: #999;
+                   	width:auto;
+                   	// width:300px;
+                   	height:28px;
+                   	line-height:28px;
+                   	// vertical-align:center;
+
+                   	// border:1px solid red;
+                   	i{
+                   		display:inline-block;
+                   		width:16px;
+                   		height:16px;
+                        padding-left:5px;
+                        margin-top: 7px;
+                       
+                   	}
+                   	.icf{
+                   		background:url(../assets/myelong_login.png) no-repeat;
+                   		background-position: -315px -267px;
+                   	}
+                   	.ice{
+                   		background:url(../assets/myelong_login.png) no-repeat;
+                   		background-position: -315px -248px;
+                   	}
+                   	span{
+                   		display:inline-block;
+                   		// width:100%;
+                   		height:28px;
+                   		line-height:28px;
+                   		// padding-bottom:5px;
+                   		padding-bottom:10px;
+                   		vertical-align:middle;
+                   		// margin-bottom:3px;
+                   	}
+
+                   }
                    p{
                    	float: left;
 					width: 135px;
@@ -209,9 +336,8 @@ export default{
 						width: 105px;
 						height: 28px;
 						float: left;
-						background: url(../assets/midify_tel.png) no-repeat 75px -1px;
+						// background: url(../assets/midify_tel.png) no-repeat 75px -1px;
 						border: 1px solid #ccc;
-						// border:1px solid red;
 						margin: 0 8px 0 0;
 						line-height: 28px;
 						cursor: pointer;
@@ -224,15 +350,17 @@ export default{
 							line-height:28px;
 							cursor:pointer;
 							font-size:12px;
+							border:0;
+							outline:none;
 							// border: 1px solid #ccc;
 						}
-						.phonelist{
-							width: 100%;
-							border: 1px solid #ccc;
-							position: absolute;
-							left: -1px;
-							top: 28px;
-						}
+						// .phonelist{
+						// 	width: 100%;
+						// 	border: 1px solid #ccc;
+						// 	position: absolute;
+						// 	left: -1px;
+						// 	top: 28px;
+						// }
 					}
 					.phone_input{
 						width:128px;
