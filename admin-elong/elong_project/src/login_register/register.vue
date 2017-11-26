@@ -61,7 +61,7 @@
        	  			<span class="cf00">*</span>邮箱:
        	  		</p>
        	  		<span>
-       	  			<input class="want email" @blur="bemail" @focus="femail" @name="email">
+       	  			<input class="want email" @blur="bemail" @focus="femail" name="email">
        	  		</span>
        	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
@@ -79,7 +79,7 @@
        	  			<span class="cf00">*</span>再次输入密码:
        	  		</p>
        	  		<span>
-       	  			<input class="want rePassword" name="rePassword" type="password">
+       	  			<input class="want rePassword"  @blur="bpassword"  name="rePassword" type="password">
        	  		</span>
        	  		<div class="dis"><i></i><span></span></div>
        	  	</li>
@@ -122,6 +122,9 @@ export default{
           name:'logins',
         })
     },
+    // fpassword:function(){
+    // 	// alert(1)
+    // },
     fphone(){
     	var inps=document.getElementsByClassName('want');
         var divs=document.getElementsByClassName('dis');
@@ -169,6 +172,19 @@ export default{
         }else{
         	divs[2].style.display="none";
         }
+    },
+    bpassword(){
+    	var inps=document.getElementsByClassName('want');
+        var divs=document.getElementsByClassName('dis');
+        var ic=document.querySelectorAll('.dis i');
+        var ics=document.querySelectorAll('.dis span');
+        if(inps[3].value!==inps[4].value){
+        	ic[4].className="icf";
+    		ics[4].innerHTML="两次密码不一致,请重新输入正确的密码";
+    		divs[4].style.display="block";
+        }else{
+        	divs[4].style.display="none";
+        }
     }
   },
   watch:{
@@ -197,13 +213,23 @@ export default{
   //   	}else{
   //   		divs[0].style.display="none";
   //   	}
-
-
-    	
-
-    	
-  //   }
+//   }
   //   phone();
+
+    var sub=document.querySelector('.regsubmit');
+    console.log(sub);	
+    var inps=document.getElementsByClassName('want');
+    var divs=document.getElementsByClassName('dis');
+    var ic=document.querySelectorAll('.dis i');
+    var ics=document.querySelectorAll('.dis span');
+    sub.onclick=function(){
+    	if(inps[0].value!=""&&inps[1].value!=""&&inps[2].value!=""&&inps[3].value!=""&&inps[4].value!=""){
+    		alert("恭喜您注册成功！");
+    	}else{
+    		alert("请将填写项填写完整！");
+    	}
+    } 	
+
   }
 }
 

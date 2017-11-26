@@ -4,16 +4,19 @@
         <section>
         	<Hscontent></Hscontent>
         </section>
+        <Footers></Footers>
 	</div>
 </template>
 <script>
 import Headers from '../components/headers'
 import Hscontent from '../components/hs_content'
+import Footers from '../components/footers'
 export default{
   name:'huangShan',
   components:{
     Headers,
-    Hscontent
+    Hscontent,
+    Footers
   },
   data () {
     return {
@@ -21,16 +24,7 @@ export default{
         
   },
   methods:{
-   // tohuangShan(){
-   // 	this.$router.push({
-   //       name:huangShan
-   // 	})
-   // },
-   // toRegister(){
-   //    this.$router.push({
-   //        name:'register',
-   //      })
-   //  },
+   
   },
   watch:{
 
@@ -47,7 +41,7 @@ export default{
 		height:100%;
 		section{
 			width:100%;
-			height:100%;
+			height:1450px;
 			
 		}
 

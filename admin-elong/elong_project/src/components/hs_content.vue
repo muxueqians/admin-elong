@@ -204,21 +204,21 @@
                        <li>
                            <div class="content">
                               <div class="imgs">
-                                  <a><img src="../assets/nw1.jpg"></a>
+                                  <a><img src="../assets/nw2.jpg"></a>
                               </div>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
-                                          <a title="滨江时尚主题酒店(屯溪老街店)">
+                                          <a title="黄山徽隐阁精品酒店(黄山景区店)">
                                               <span class="sp1">1</span>
-                                              滨江时尚酒店(屯溪老街店)
+                                              黄山徽隐阁精品酒店(黄山景区店)
                                           </a>
                                           <i class="inew" title="艺龙龙冠级合作酒店"></i>
                                           <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
                                       </p>
                                       <p class="pk2">
-                                          <a>[黄山市区(屯溪)]</a>
-                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                          <a>[汤口地区]</a>
+                                          黄山市黄山风景区寨西新村距离换乘中心步行8分钟免费接送电话(13305597080)
                                       </p>
                                       <p class="pk3">
                                           <span class="WiFi" title="WiFi上网"></span>
@@ -596,7 +596,7 @@ export default{
     width:90%;
     height:auto;
     margin:0 auto;
-    border:1px solid red;
+    // border:1px solid red;
     .c_one{
         width:100%;
         height:25px;
@@ -1109,7 +1109,7 @@ export default{
             .cfleft-d{
                 width:830px;
                 height:auto;
-                border:1px solid red;
+                // border:1px solid red;
                 ul{
                     width:100%;
                     height:900px;

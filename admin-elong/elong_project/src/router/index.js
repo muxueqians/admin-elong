@@ -14,6 +14,8 @@ import Epas  from '../eidts/partners'
 import Echl  from '../eidts/common_hotel'
 import Ehgg  from '../eidts/hotel_groupbuying'
 
+// import BaiduMap  from '../eidts/BaiduMap'
+
 Vue.use(Router)
 
 const router = new Router({
@@ -24,6 +26,11 @@ const router = new Router({
       name: 'admin',
       component: Admin
     },
+    // {
+    //   path:'/',
+    //   name:'BaiduMap',
+    //   component:BaiduMap
+    // },
     {
       path:'/huangShan',
       name:'huangShan',
@@ -40,7 +47,7 @@ const router = new Router({
     	component:Register
     },
     {
-      path: '/eidts',
+      path: '/',
       name: 'eidts',
       component: Admin,
       children:[
@@ -54,4 +61,6 @@ const router = new Router({
     }
   ]
 })
+
+
 export default router;

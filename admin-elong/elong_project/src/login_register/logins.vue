@@ -23,22 +23,22 @@
        	  	<div class="login_middle">
        	  		<div class="inputbox">
        	  			<span class="icon"></span>
-       	  			<input class="username" value="用户名/卡号/手机号/邮箱" type="text"/>
+       	  			<input class="username" placeholder="用户名/卡号/手机号/邮箱" type="text"/>
        	  			<div class="input_tip" style="display:none;">您输入的用户名和密码不匹配，请重新输入!</div>
        	  		</div>
        	  		<div class="inputbox1">
        	  			<span class="icon1"></span>
-       	  			<input class="userpassword" value="密码" type="text"/>
+       	  			<input class="userpassword" placeholder="密码"  type="text"/>
        	  		</div>
        	  		<div class="inputbox2" style="display:none;">
        	  			<span class="icon1"></span>
        	  			<input class="blur" type="password"/>
        	  		</div>
        	  		<div class="inputbox3">
-       	  			<input class="yzm" value="验证码"type="text"/>
-       	  			<span class="yzm_div"></span>
+       	  			<input class="yzm" placeholder="验证码"type="text" @blur="pdy"/>
+       	  			<span class="yzm_div">9523</span>
        	  			<a >换一张</a>
-       	  			<div class="yzm_result" style="display:none;">您输入的验证码不正确</div>
+       	  			<div class="yzm_result">您输入的验证码不正确</div>
        	  		</div>
        	  		<div class="forget">
        	  			<span>
@@ -94,13 +94,34 @@ export default{
       this.$router.push({
       	name:'admin',
       })
+    },
+    pdy(){
+    	var yz=document.querySelector('.yzm');
+        var pd=document.querySelector('.yzm_div');
+        var ps=document.querySelector('.yzm_result')
+        if(yz.value!==pd.innerHTML){
+               ps.style.display="block";
+        }else{
+        	ps.style.display="none";
+        }
     }
   },
   watch:{
 
   },
   mounted(){
-    
+    var log=document.querySelector('.loginbtn');
+    var fsn=document.querySelector('.username');
+    var usp=document.querySelector('.userpassword');
+    var yz=document.querySelector('.yzm');
+    var pd=document.querySelector('.yzm_div')
+     log.onclick=function(){
+        if(fsn.value!=""&&usp.value!=""&&yz.value!=""){
+        	alert('恭喜登录成功！');
+        }else{
+        	alert('请完成填写项！');
+        }
+     }
   }
 }
 
@@ -305,7 +326,9 @@ export default{
 						margin-left: 160px;
 						vertical-align: middle;
 						height: 35px;
-						border:1px solid red;
+						line-height:35px;
+						text-align:center;
+						// border:1px solid red;
 					   }
 					   a{
 					   	font-size: 12px;
@@ -326,6 +349,7 @@ export default{
 						left: 0;
 						z-index: 10;
 						font-family: arial, Verdana, Geneva, Helvetica;
+						display:none;
 					   }
 					}
 					.forget{

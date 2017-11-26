@@ -692,8 +692,8 @@ export default{
 						}
 					}
 					span{
-                        font: 14px/22px Microsoft yahei;
-                        color:#555;
+                                          font: 14px/22px Microsoft yahei;
+                                          color:#555;
 						padding: 1px 10px;
 						margin: 4px 10px 0;
 						border-radius: 12px;
@@ -704,6 +704,11 @@ export default{
 						background:#F66;
 						color:#fff;
 					}
+                                   .fsp:hover{
+                                          color: #F66;
+                                          border: 1px solid #F66;
+                                          padding: 0 9px;
+                                   }
 					.more{
 						position: relative;
 						top: 6px;
@@ -757,7 +762,8 @@ export default{
 									margin-top: -20px;
 									position: relative;
 									bottom: 0;
-									transition: bottom .3s;border: 0;
+									transition: bottom .3s;
+                                                               border: 0;
 								}
 							}
 							.city_name{
@@ -782,6 +788,14 @@ export default{
 									padding: 0;
 								}
 							}
+                    }
+                    li:hover{
+                     border-bottom: 2px solid #F66;
+                     margin-bottom: 0;
+                     img{
+                          bottom: 8px;
+                          transition: bottom .3s;
+                     }
                     } 
         		   }
         		}

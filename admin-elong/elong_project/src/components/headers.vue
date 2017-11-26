@@ -43,7 +43,7 @@
       <div class="nav_box">
         <div class="navb_l">
          <ul class="navb_lu">
-           <li><a title="艺龙旅游网">首页</a></li>
+           <li><a href="javascript:;" title="艺龙旅游网" @click="toAdmin">首页</a></li>
            <li><a title="酒店预定">国内酒店</a></li>
            <li class="navsame ali"><a title="国际酒店">国际酒店</a><i class="sicon1"></i></li>
            <li class="navsame ali"><a title="机票预订">机票</a><i class="sicon2"></i></li>
@@ -115,6 +115,11 @@ export default{
         
   },
   methods:{
+    toAdmin(){
+      this.$router.push({
+        name:'admin',
+      })
+    },
   	toLogin(){
       this.$router.push({
           name:'logins',
@@ -173,6 +178,7 @@ export default{
             font-family: arial,Verdana, Geneva, Helvetica;
             color: #999;
             line-height: 20px;
+            text-decoration:none;
             -webkit-text-size-adjust: none;
           }
           .abanner:hover{
@@ -466,6 +472,7 @@ export default{
               color:#fff;
               font-family: Microsoft YaHei,Tahoma,Geneva,sans-serif;
               font-size: 14px;
+              text-decoration:none;
             }
             a:hover {
               color: #fff544;

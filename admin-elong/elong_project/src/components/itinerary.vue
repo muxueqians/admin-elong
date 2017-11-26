@@ -10,13 +10,14 @@
             <div class="itil_content">
             <!--    <div class="itil_c"> -->
                 <ul class="itil_c">
-                   <li><a>小朋友超爱的三亚酒店</a></li>
-                   <li><a>7条航线带你“邮”世界</a></li>
-                   <li><a>盘点国内52处世界遗产</a></li>
-                   <li><a>青岛七星酒店住一晚</a></li>
+                   <li><span></span><a>小朋友超爱的三亚酒店</a></li>
+                   <li><span></span><a>7条航线带你“邮”世界</a></li>
+                   <li><span></span><a>盘点国内52处世界遗产</a></li>
+                   <li><span></span><a>青岛七星酒店住一晚</a></li>
+                    <div class="itil_i divi"></div>
                 </ul>
                <!-- </div> -->
-               <div class="itil_i divi"></div>
+              
             </div>
             <div class="itir_content">
               <div class="itir_contl stm">
@@ -104,13 +105,15 @@ export default{
             display:flex;
             flex-flow:row nowrap;
             .itil_c{
-              width:220px;
+              width:580px;
               height:220px;
               box-sizing:border-box;
-              border:1px solid red;
+              // border:1px solid red;
+              position:relative;
               li{
-                 width:232px;
+                 width:200px;
                  height:54px;
+                 position:relative;
                  line-height:54px;
                  border-bottom:1px solid #ccc;
                  a{
@@ -120,16 +123,48 @@ export default{
                   text-decoration: none;
                  }
               }
-            }
-            .itil_i{
-              width:380px;
-              height:220px;
-            }
-            .divi{
-              background:url('../assets/ly01.jpg') no-repeat;
-            }
-            .itil_c li:nth-of-type:hover + .divi{
-              background:url('../assets/ly02.jpg') no-repeat;
+              .itil_i{
+                    width:380px;
+                    height:220px;
+                    position:absolute;
+                    right:0;
+                    top:0;
+              }
+              .divi{
+                background:url('../assets/ly01.jpg') no-repeat;
+              }
+              // li:nth-of-type(1):hover ~.divi{
+              //   background:url('../assets/ly02.jpg') no-repeat;
+              // }
+              li:hover{
+                background: #89ca00;
+                span{
+                  width: 12px;
+                  height: 19px;
+                  display: block;
+                  position: absolute;
+                  top: 17px;
+                  right:-12px;
+                  background: url("../assets/icon_index.png") no-repeat;
+                  background-position: -547px 0;
+                  z-index:1;
+                }
+                a{
+                  color: #fff;
+                }    
+              }
+              li:nth-of-type(1):hover ~.divi{
+                   background:url('../assets/ly01.jpg') no-repeat;
+              }
+              li:nth-of-type(2):hover ~.divi{
+                   background:url('../assets/ly02.jpg') no-repeat;
+              }
+              li:nth-of-type(3):hover ~.divi{
+                   background:url('../assets/ly03.jpg') no-repeat;
+              }
+              li:nth-of-type(4):hover ~.divi{
+                   background:url('../assets/ly04.jpg') no-repeat;
+              }
             }
           }
           .itir_content{
@@ -166,6 +201,15 @@ export default{
                   width: 100%;
                   overflow: hidden;
                 }
+              }
+            }
+            .stm:hover{
+              // border-bottom:
+              a{
+                color: #F55;
+              }
+              p{
+                border-bottom: 2px solid #7C1;
               }
             }
           }

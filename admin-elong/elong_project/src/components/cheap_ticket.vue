@@ -13,7 +13,7 @@
                 <a>
                   <i class="air_ticket"></i>机票
                 </a>
-                <span class="on">北京出发</span><span>上海出发</span><span>广州出发</span><span>杭州出发</span><span>深圳出发</span><span>成都出发</span>
+                <span class="on sfp">北京出发</span><span class="sfp">上海出发</span><span class="sfp">广州出发</span><span class="sfp">杭州出发</span><span class="sfp">深圳出发</span><span class="sfp">成都出发</span>
                 <em class="more right">
                    <a>
                      更多<b>>></b>
@@ -145,7 +145,7 @@
                 <a>
                   <i class="train_ticket"></i>火车票
                 </a>
-                <span class="on">北京出发</span><span>上海出发</span><span>广州出发</span><span>深圳出发</span><span>天津出发</span><span>厦门出发</span>
+                <span class="on sfp">北京出发</span><span class="sfp">上海出发</span><span class="sfp">广州出发</span><span class="sfp">深圳出发</span><span class="sfp">天津出发</span><span class="sfp">厦门出发</span>
                 <em class="more right">
                    <a>
                      更多<b>>></b>
@@ -377,6 +377,11 @@ export default{
               cursor: pointer;
               float: left;
             }
+            .sfp:hover{
+              color: #49f;
+              border: 1px solid #49F;
+              padding: 0 9px;
+            }
             .on{
               background: #49f;
               color: #fff;
@@ -417,7 +422,7 @@ export default{
                 border: 1px solid #d8e8fe;
                 height: 98px;
                 float: left;
-                margin: 0 0 0 -1px;
+                // margin: 0 0 0 -1px;
                 padding: 0;
                 list-style: none;
                 a{
@@ -506,6 +511,9 @@ export default{
                       }
                   }
                 }
+              }
+              li:hover{
+                border:1px solid #37e;
               }
              }
          }
