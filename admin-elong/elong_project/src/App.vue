@@ -7,7 +7,16 @@
 
 <script>
 import Vue from 'vue'
-import router from './router';
+import router from './router'
+// import Element from 'element-ui';
+// import 'element-ui/lib/theme-default/index.css';
+
+import BaiduMap from 'vue-baidu-map'
+
+//Vue.use(Element);
+Vue.use(BaiduMap,{
+  ak:'R1EXxlquzUz17vo6LHZVOGDSxIHwuX8B'
+});
 
 export default {
   name: 'app'

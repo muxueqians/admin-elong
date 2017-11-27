@@ -41,7 +41,7 @@ export default{
 		height:100%;
 		section{
 			width:100%;
-			height:1450px;
+			height:2024px;
 			
 		}
 

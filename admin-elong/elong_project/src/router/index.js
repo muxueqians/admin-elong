@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import huangShan from '../eidts/huangShan'
-import Admin from '../views/admin'
+// import BaiduMap from '../eidts/baidumap'
 
 import Logins from '../login_register/logins'
 import Register from '../login_register/register'
@@ -14,8 +14,7 @@ import Epas  from '../eidts/partners'
 import Echl  from '../eidts/common_hotel'
 import Ehgg  from '../eidts/hotel_groupbuying'
 
-// import BaiduMap  from '../eidts/BaiduMap'
-
+import Admin from '../views/admin'
 Vue.use(Router)
 
 const router = new Router({
@@ -24,13 +23,8 @@ const router = new Router({
     {
       path: '/',
       name: 'admin',
-      component: Admin
+      component:Admin
     },
-    // {
-    //   path:'/',
-    //   name:'BaiduMap',
-    //   component:BaiduMap
-    // },
     {
       path:'/huangShan',
       name:'huangShan',

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "element-ui": "^1.4.6",
     "vue": "^2.5.2",
     "vue-awesome-swiper": "^2.6.7",
     "vue-baidu-map": "^0.18.9",

@@ -135,6 +135,7 @@
                               <div class="imgs">
                                   <a><img src="../assets/nw1.jpg"></a>
                               </div>
+                              <img class="simg" src="../assets/ns1.jpg"/>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
@@ -190,11 +191,11 @@
                                       <div class="detail">
                                           <a>查看详情</a>
                                       </div>
-                                      <div class="love" style="display:none">
+                                      <div class="love">
                                           <span>
                                               <i class="heart"></i>
-                                              <b>1134人</b>收藏
-                                              <span>+1</span>
+                                              <b>851人</b>收藏
+                                              <!-- <span>+1</span> -->
                                           </span>
                                       </div>
                                   </div>
@@ -206,12 +207,13 @@
                               <div class="imgs">
                                   <a><img src="../assets/nw2.jpg"></a>
                               </div>
+                               <img class="simg" src="../assets/ns2.jpg"/>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
                                           <a title="黄山徽隐阁精品酒店(黄山景区店)">
-                                              <span class="sp1">1</span>
-                                              黄山徽隐阁精品酒店(黄山景区店)
+                                              <span class="sp1">2</span>
+                                              徽隐阁精品酒店(黄山景区店)
                                           </a>
                                           <i class="inew" title="艺龙龙冠级合作酒店"></i>
                                           <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
@@ -236,36 +238,36 @@
                                   <div class="evaluate">
                                       <a>
                                           <span>
-                                              <i>99%</i>
+                                              <i>100%</i>
                                               <i>好评</i>
                                           </span>
                                           <span>
-                                              来自<b>1713</b>条点评
+                                              来自<b>1528</b>条点评
                                           </span>
                                       </a>
-                                      <p class="newmessage">最新预订：4小时前</p>
+                                      <p class="newmessage">最新预订：11月25日</p>
                                   </div>
                                   <div class="cprice">
                                       <p class="pk5">
                                           <a>
                                               <span class="s1">¥</span>
-                                              <span class="s2">168</span>
+                                              <span class="s2">175</span>
                                               <span class="s3">起</span>
                                           </a>
                                       </p>
                                       <p class="pk6">
                                           <span>
-                                              <i class="fmoery"></i>200返11
+                                              <i class="fmoery"></i>186返11
                                           </span>
                                       </p>
                                       <div class="detail">
                                           <a>查看详情</a>
                                       </div>
-                                      <div class="love" style="display:none">
+                                      <div class="love">
                                           <span>
                                               <i class="heart"></i>
-                                              <b>1134人</b>收藏
-                                              <span>+1</span>
+                                              <b>756人</b>收藏
+                                              <!-- <span>+1</span> -->
                                           </span>
                                       </div>
                                   </div>
@@ -275,21 +277,22 @@
                        <li>
                            <div class="content">
                               <div class="imgs">
-                                  <a><img src="../assets/nw1.jpg"></a>
+                                  <a><img src="../assets/nw3.jpg"></a>
                               </div>
+                              <img class="simg" src="../assets/ns3.jpg"/>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
-                                          <a title="滨江时尚主题酒店(屯溪老街店)">
-                                              <span class="sp1">1</span>
-                                              滨江时尚酒店(屯溪老街店)
+                                          <a title="台湾璞致文化精品酒店(黄山风景区换乘店)">
+                                              <span class="sp1">3</span>
+                                              台湾璞致文化精品酒店
                                           </a>
                                           <i class="inew" title="艺龙龙冠级合作酒店"></i>
                                           <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
                                       </p>
                                       <p class="pk2">
-                                          <a>[黄山市区(屯溪)]</a>
-                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                          <a>[汤口地区]</a>
+                                          黄山风景区(南大门换乘中心800米处)汤口免费接送
                                       </p>
                                       <p class="pk3">
                                           <span class="WiFi" title="WiFi上网"></span>
@@ -307,36 +310,36 @@
                                   <div class="evaluate">
                                       <a>
                                           <span>
-                                              <i>99%</i>
+                                              <i>100%</i>
                                               <i>好评</i>
                                           </span>
                                           <span>
-                                              来自<b>1713</b>条点评
+                                              来自<b>2727</b>条点评
                                           </span>
                                       </a>
-                                      <p class="newmessage">最新预订：4小时前</p>
+                                      <p class="newmessage">最新预订：34分钟前</p>
                                   </div>
                                   <div class="cprice">
                                       <p class="pk5">
                                           <a>
                                               <span class="s1">¥</span>
-                                              <span class="s2">168</span>
+                                              <span class="s2">171</span>
                                               <span class="s3">起</span>
                                           </a>
                                       </p>
                                       <p class="pk6">
                                           <span>
-                                              <i class="fmoery"></i>200返11
+                                              <i class="fmoery"></i>188返17
                                           </span>
                                       </p>
                                       <div class="detail">
                                           <a>查看详情</a>
                                       </div>
-                                      <div class="love" style="display:none">
+                                      <div class="love">
                                           <span>
                                               <i class="heart"></i>
-                                              <b>1134人</b>收藏
-                                              <span>+1</span>
+                                              <b>432人</b>收藏
+                                             <!--  <span>+1</span> -->
                                           </span>
                                       </div>
                                   </div>
@@ -346,21 +349,22 @@
                        <li>
                            <div class="content">
                               <div class="imgs">
-                                  <a><img src="../assets/nw1.jpg"></a>
+                                  <a><img src="../assets/nw4.jpg"></a>
                               </div>
+                              <img class="simg" src="../assets/ns4.jpg"/>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
-                                          <a title="滨江时尚主题酒店(屯溪老街店)">
-                                              <span class="sp1">1</span>
-                                              滨江时尚酒店(屯溪老街店)
+                                          <a title="蝶尚非经验酒店(屯溪老街店)">
+                                              <span class="sp1">4</span>
+                                              蝶尚非经验酒店(屯溪老街店)
                                           </a>
                                           <i class="inew" title="艺龙龙冠级合作酒店"></i>
                                           <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
                                       </p>
                                       <p class="pk2">
                                           <a>[黄山市区(屯溪)]</a>
-                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                          屯溪区仙人洞北路1-6号(近茶城 距离火车站步行4分钟 距离老街打的3分钟)
                                       </p>
                                       <p class="pk3">
                                           <span class="WiFi" title="WiFi上网"></span>
@@ -378,20 +382,20 @@
                                   <div class="evaluate">
                                       <a>
                                           <span>
-                                              <i>99%</i>
+                                              <i>98%</i>
                                               <i>好评</i>
                                           </span>
                                           <span>
-                                              来自<b>1713</b>条点评
+                                              来自<b>1149</b>条点评
                                           </span>
                                       </a>
-                                      <p class="newmessage">最新预订：4小时前</p>
+                                      <p class="newmessage">最新预订：14小时前</p>
                                   </div>
                                   <div class="cprice">
                                       <p class="pk5">
                                           <a>
                                               <span class="s1">¥</span>
-                                              <span class="s2">168</span>
+                                              <span class="s2">153</span>
                                               <span class="s3">起</span>
                                           </a>
                                       </p>
@@ -403,11 +407,11 @@
                                       <div class="detail">
                                           <a>查看详情</a>
                                       </div>
-                                      <div class="love" style="display:none">
+                                      <div class="love">
                                           <span>
                                               <i class="heart"></i>
-                                              <b>1134人</b>收藏
-                                              <span>+1</span>
+                                              <b>514人</b>收藏
+                                              <!-- <span>+1</span> -->
                                           </span>
                                       </div>
                                   </div>
@@ -417,21 +421,22 @@
                        <li>
                            <div class="content">
                               <div class="imgs">
-                                  <a><img src="../assets/nw1.jpg"></a>
+                                  <a><img src="../assets/nw5.jpg"></a>
                               </div>
+                              <img class="simg" src="../assets/ns5.jpg"/>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
-                                          <a title="滨江时尚主题酒店(屯溪老街店)">
-                                              <span class="sp1">1</span>
-                                              滨江时尚酒店(屯溪老街店)
+                                          <a title="黄山香茗酒店">
+                                              <span class="sp1">5</span>
+                                              黄山香茗酒店
                                           </a>
                                           <i class="inew" title="艺龙龙冠级合作酒店"></i>
                                           <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
                                       </p>
                                       <p class="pk2">
                                           <a>[黄山市区(屯溪)]</a>
-                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                          屯溪区迎宾大道2号 近西海路2016年7月18-29日 酒店游泳池维修不可使用
                                       </p>
                                       <p class="pk3">
                                           <span class="WiFi" title="WiFi上网"></span>
@@ -449,20 +454,20 @@
                                   <div class="evaluate">
                                       <a>
                                           <span>
-                                              <i>99%</i>
+                                              <i>98%</i>
                                               <i>好评</i>
                                           </span>
                                           <span>
-                                              来自<b>1713</b>条点评
+                                              来自<b>618</b>条点评
                                           </span>
                                       </a>
-                                      <p class="newmessage">最新预订：4小时前</p>
+                                      <p class="newmessage">最新预订：11月25日</p>
                                   </div>
                                   <div class="cprice">
                                       <p class="pk5">
                                           <a>
                                               <span class="s1">¥</span>
-                                              <span class="s2">168</span>
+                                              <span class="s2">379</span>
                                               <span class="s3">起</span>
                                           </a>
                                       </p>
@@ -474,11 +479,11 @@
                                       <div class="detail">
                                           <a>查看详情</a>
                                       </div>
-                                      <div class="love" style="display:none">
+                                      <div class="love">
                                           <span>
                                               <i class="heart"></i>
-                                              <b>1134人</b>收藏
-                                              <span>+1</span>
+                                              <b>521人</b>收藏
+                                              <!-- <span>+1</span> -->
                                           </span>
                                       </div>
                                   </div>
@@ -488,21 +493,22 @@
                        <li>
                            <div class="content">
                               <div class="imgs">
-                                  <a><img src="../assets/nw1.jpg"></a>
+                                  <a><img src="../assets/nw6.jpg"></a>
                               </div>
+                              <img class="simg" src="../assets/ns6.jpg"/>
                               <div class="conf">
                                   <div class="cfont">
                                       <p class="pk1">
-                                          <a title="滨江时尚主题酒店(屯溪老街店)">
-                                              <span class="sp1">1</span>
-                                              滨江时尚酒店(屯溪老街店)
+                                          <a title="吉华国际大酒店(换乘中心店)">
+                                              <span class="sp1">6</span>
+                                              吉华国际大酒店(换乘中心店)
                                           </a>
                                           <i class="inew" title="艺龙龙冠级合作酒店"></i>
                                           <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
                                       </p>
                                       <p class="pk2">
-                                          <a>[黄山市区(屯溪)]</a>
-                                          屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                                          <a>[汤口地区]</a>
+                                          黄山风景区换乘中心对面
                                       </p>
                                       <p class="pk3">
                                           <span class="WiFi" title="WiFi上网"></span>
@@ -520,20 +526,20 @@
                                   <div class="evaluate">
                                       <a>
                                           <span>
-                                              <i>99%</i>
+                                              <i>97%</i>
                                               <i>好评</i>
                                           </span>
                                           <span>
-                                              来自<b>1713</b>条点评
+                                              来自<b>3926</b>条点评
                                           </span>
                                       </a>
-                                      <p class="newmessage">最新预订：4小时前</p>
+                                      <p class="newmessage">最新预订：11月25日</p>
                                   </div>
                                   <div class="cprice">
                                       <p class="pk5">
                                           <a>
                                               <span class="s1">¥</span>
-                                              <span class="s2">168</span>
+                                              <span class="s2">189</span>
                                               <span class="s3">起</span>
                                           </a>
                                       </p>
@@ -545,11 +551,299 @@
                                       <div class="detail">
                                           <a>查看详情</a>
                                       </div>
-                                      <div class="love" style="display:none">
+                                      <div class="love">
                                           <span>
                                               <i class="heart"></i>
-                                              <b>1134人</b>收藏
-                                              <span>+1</span>
+                                              <b>101人</b>收藏
+                                             <!--  <span>+1</span> -->
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw7.jpg"></a>
+                              </div>
+                              <img class="simg" src="../assets/ns7.jpg"/>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="黄山广交大酒店(屯溪老街店)">
+                                              <span class="sp1">3</span>
+                                              黄山广交大酒店(屯溪老街店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>黄山市区(屯溪)</a>        
+                               屯溪区昱阳路147号(新安江畔 屯溪老街和黎阳老街中间地段)
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>95%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>215</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：10小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">152</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>188返17
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>102人</b>收藏
+                                             <!--  <span>+1</span> -->
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw8.jpg"></a>
+                              </div>
+                              <img class="simg" src="../assets/ns8.jpg"/>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="清雅大酒店(换乘中心店)">
+                                              <span class="sp1">8</span>
+                                             清雅大酒店(换乘中心店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[汤口地区]</a>
+                                          安徽省黄山市黄山风景区汤口南大门景区换乘中心旁50米寨西汤川徽韵商贸城1-6号
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>100%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1634</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：19小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">179</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>191返12
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>105人</b>收藏
+                                              <!-- <span>+1</span> -->
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw9.jpg"></a>
+                              </div>
+                              <img class="simg" src="../assets/ns9.jpg"/>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="黄山印象大酒店(换乘中心店)">
+                                              <span class="sp1">9</span>
+                                              黄山印象大酒店(换乘中心店)
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[汤口地区]</a>
+                                         黄山风景区汤口镇翡翠路57号东岭停车场
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>100%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>1847</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：14小时前</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">236</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>200返11
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>198人</b>收藏
+                                              <!-- <span>+1</span> -->
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="content">
+                              <div class="imgs">
+                                  <a><img src="../assets/nw10.jpg"></a>
+                              </div>
+                             <img class="simg" src="../assets/ns10.jpg"/>
+                              <div class="conf">
+                                  <div class="cfont">
+                                      <p class="pk1">
+                                          <a title="黄山滨江花园酒店">
+                                              <span class="sp1">10</span>
+                                              黄山滨江花园酒店
+                                          </a>
+                                          <i class="inew" title="艺龙龙冠级合作酒店"></i>
+                                          <b class="istarts" title="艺龙用户评定为高档型酒店"></b>
+                                      </p>
+                                      <p class="pk2">
+                                          <a>[黄山市区(屯溪)]</a>
+                                          南滨江西路7号黄山元一大观水口街1A幢111号近屯溪老街(步行10分钟)新安江畔
+                                      </p>
+                                      <p class="pk3">
+                                          <span class="WiFi" title="WiFi上网"></span>
+                                          <span class="park" title="停车场"></span>
+                                      </p>
+                                      <p class="pk4">
+                                          <span class="map">
+                                              <i class="cmap"></i>地图
+                                          </span>
+                                          <span class="street">
+                                              <i class="cstreet"></i>街景
+                                          </span>
+                                      </p>
+                                  </div>
+                                  <div class="evaluate">
+                                      <a>
+                                          <span>
+                                              <i>96%</i>
+                                              <i>好评</i>
+                                          </span>
+                                          <span>
+                                              来自<b>3219</b>条点评
+                                          </span>
+                                      </a>
+                                      <p class="newmessage">最新预订：11月25日</p>
+                                  </div>
+                                  <div class="cprice">
+                                      <p class="pk5">
+                                          <a>
+                                              <span class="s1">¥</span>
+                                              <span class="s2">275</span>
+                                              <span class="s3">起</span>
+                                          </a>
+                                      </p>
+                                      <p class="pk6">
+                                          <span>
+                                              <i class="fmoery"></i>288返13
+                                          </span>
+                                      </p>
+                                      <div class="detail">
+                                          <a>查看详情</a>
+                                      </div>
+                                      <div class="love">
+                                          <span>
+                                              <i class="heart"></i>
+                                              <b>102人</b>收藏
+                                             <!--  <span>+1</span> -->
                                           </span>
                                       </div>
                                   </div>
@@ -565,15 +859,19 @@
                    <i class="icon_r"></i>
                    看看大家都住哪儿
                </div>
+               <div class="cfright-b">
+                   <BaiduMap></BaiduMap>
+               </div>   
            </div>
        </div>
     </div>
 </template>
 <script>
+import BaiduMap from './baidumap'
 export default{
   name:'hs_content',
   components:{
-   
+    BaiduMap
   },
   data () {
     return {
@@ -581,13 +879,13 @@ export default{
         
   },
   methods:{
-   
+    
   },
   watch:{
-
+   
   },
   mounted(){
-   
+     
   }
 }
 </script>
@@ -1116,6 +1414,7 @@ export default{
                     li{
                         width:830px;
                         height:130px;
+                        position:relative;
                         padding:15px 0;
                         border-bottom:1px solid #DDD;
                         background: rgb(255, 255, 255) none repeat scroll 0% 0%;
@@ -1132,10 +1431,21 @@ export default{
                                     height: 130px;
                                     position:relative;
                               }
+                              .simg{ 
+                               display:none;
+                               position: absolute; 
+                               top: -2px;
+                               left: 190px;
+                               z-index: 5;
+                               border: 5px solid #DDD;
+                              }
+                              .imgs:hover +.simg{
+                                display:block;
+                              }
                               .conf{
                                     width:635px;
                                     height:130px;
-                                    border:1px solid blue;
+                                    // border:1px solid blue;
                                     display:flex;
                                     flex-flow:row nowrap;
                                     .cfont{
@@ -1407,10 +1717,52 @@ export default{
                                                 cursor: pointer;
                                             }
                                         }
+                                        .love{
+                                            display:none;
+                                            position: absolute;
+                                            bottom: 0;
+                                            right: 18px;
+                                            padding: 0 8px;
+                                            background-color: #e3f0ff;
+                                            border-radius: 10px;
+                                            margin-right: 2px;
+                                            span{
+                                                cursor: pointer;
+                                                position: relative;
+                                                margin-left: 20px;
+                                                font-size: 12px;
+                                                font-family: arial,Verdana, Geneva, Helvetica;
+                                                color: #555;
+                                                line-height: 20px;
+                                                .heart{
+                                                    margin-right: 2px;
+                                                    width: 23px;
+                                                    height: 20px;
+                                                    display: inline-block;
+                                                    background: url(../assets/iconf.png) no-repeat;
+                                                    background-position: -678px -305px;
+                                                    vertical-align: middle;
+                                                }
+                                            }
+                                        }
                                     }
+                              }
+                              .conf:hover{
+                                .detail>a{
+                                    background:#49f;
+                                    border:1px solid #49f;
+                                    color:#fff;
+                                }
+                                .love{
+                                    display:block;
+                                }
                               }
                         }   
                     }
+                    li:hover{
+                        background:rgb(245,250,255) none repeat scroll 0% 0%;
+                    }
+
                 }
             }
         }
@@ -1418,6 +1770,7 @@ export default{
             width:355px;
             height:921px;
             border:1px solid blue;
+            overflow:hidden;
             .cfright-t{
                 width:329px;
                 height: 38px;
@@ -1460,6 +1813,11 @@ export default{
                     cursor: pointer;
                     float: right;
                 }
+            }
+            .cfright-b{
+                width:100%;
+                height:800px;
+                border:1px solid red;
             }
         }
     }

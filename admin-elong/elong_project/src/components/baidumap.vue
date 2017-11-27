@@ -1,7 +1,7 @@
 <template>
-  <div id="admin">
+  <div id="baidumap">
     <div v-if="isMapShow">
-        <el-input class="search_input" v-model="mapConfig.keyword" placeholder="搜索地点，并进行选择"></el-input>
+        <input class="search_input" v-model="mapConfig.keyword" placeholder="搜索地点，并进行选择"/>
         <baidu-map class="map-container"
         :scroll-wheel-zoom="true"
         :center="mapConfig.center"
@@ -11,20 +11,17 @@
           <bm-local-search
             :keyword="mapConfig.keyword"
             :auto-viewport="true"
-            :location="mapConfig.location"
-            @infohtmlset="infohtmlset">
+            :location="mapConfig.location">
           </bm-local-search>
         </baidu-map>
       </div>
   </div>
 </template>
-
 <script>
-import { mapState } from 'vuex'
+// import { mapState } from 'vuex'
 export default {
-  name: 'admin',
+  name: 'baidumap',
   components:{
-    //HelloWorld
   },
   data () {
     return {
@@ -57,36 +54,31 @@ export default {
     },
   },
   computed:{
-    ...mapState([
-      'zimo'
-      ])
   },
   mounted(){
 
   }
 }
 </script>
-
-
 <style lang="scss" scope>
-  #admin{
+  #baidumap{
     width:100%;
-    height: 100%;
+    height: 1000px;
     background: #ccc;
     .search_input{
-      width:600px;
+      width:100%;
       display: block;
       height: 40px;
       margin:0 auto;
       padding-top:20px;
     }
     .map-container {
-      width: 1200px;
+      width: 100%;
       height: 100%;
       margin:0 auto;
       .bm-view {
         width: 100%;
-        height: 400px;
+        height: 600px;
         margin-bottom: 40px;
       }
     }
